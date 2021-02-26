@@ -1,0 +1,31 @@
+.post-img img{
+    width: 100%;
+}
+.post-img{
+    overflow: hidden;
+    height: 257px;
+}
+.blog-post h1{
+    text-align: center;
+}
+.row{
+    display: flex;
+}
+.home-article{
+    flex-direction: column;
+    overflow: hidden;
+}
+.blog-post p{
+    font-size: 20px;
+}
+.info{
+    display: flex;
+    justify-content: space-between;
+   
+}
+.media img{
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    margin-top: 6px;
+}

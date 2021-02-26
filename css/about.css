@@ -1,0 +1,43 @@
+.my-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgb(247, 210, 210,0.5);
+}
+.my-img img{
+    width: 250px;
+    height: 250px;
+    border-radius: 133px;
+}
+.my-about{
+    font-family: var(--font2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.my-about h3{
+ margin: 10px;
+}
+.my-about h4{
+    margin-bottom: 10px;
+}
+.my-socialmedia{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    background-color: rgb(247, 210, 210,0.5);
+    height: 150px;
+    border-radius: 30px;
+}
+.media-logo img{
+    width: 100px;
+    height: 100px;
+    border-radius: 30px;
+}
+.footer{
+    position: relative;
+    bottom: -10px;
+}

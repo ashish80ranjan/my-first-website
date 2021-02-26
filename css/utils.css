@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Newsreader&family=Roboto&family=Truculenta&display=swap');
+
+:root{
+    --font1: 'Roboto', sans-serif;
+    --font2: 'Newsreader', serif;
+}
+.max-width-1{
+    width: 80vw;
+    
+}
+.font1{
+    font-family: var(--font1);
+}
+.font2{
+    font-family: var(--font2);
+}
+.max-width-2{
+    width: 70vw;
+   
+}
+.m-auto{
+    margin: auto;
+}
+.btn{
+    margin: 0 13px;
+    border-radius: 5px;
+    padding: 4px;
+   font-family: var(--font1);
+   cursor: pointer;
+   transition: all 0.2s linear;
+}
+.my-3{
+    margin-top: 20px;
+}
+.form-box input{
+    padding: 11px 10px;
+    border-radius: 5px;
+    margin: 6px 20px;
+    font-family: var(--font1);
+    width: 60%;
+}
+.form-box textarea{
+    padding: 11px 10px;
+    border-radius: 5px;
+    margin: 6px 20px;
+    font-family: var(--font1);
+    width: 60%;
+}
+.contact-form button{
+    margin: 0px 20px;
+    margin-bottom: 8px;
+    width: 86px;
+}
